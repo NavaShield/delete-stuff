@@ -4,14 +4,14 @@ This script is used to encrypt files within specified subfolders within user fol
 
 ## Requirements
 
-- The script assumes that the user folders are located at `/mnt/c/Users`
+- The script assumes that the user folders are located at `/mnt/c/Users` which is the location for user folders when the script is run in the Windows Subsystem for Linux (WSL).
 - The script requires `openssl` to be installed and available in the PATH
 
 ## Usage
 
 1. Save the script to a file on the target system.
 2. Make the script executable by running `chmod +x script-file-name.sh`.
-3. Run the script by executing `./script-file-name.sh` in the terminal.
+3. Run the script by executing `./script-file-name.sh` in the terminal. *Note: This script must be run in the Windows Subsystem for Linux (WSL) in order to access the `/mnt/c/Users` directory.*
 
 ## Functionality
 
